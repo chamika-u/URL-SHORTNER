@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and title for the webpage -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortner</title>
+
+    <!-- Link to an external CSS file for styling -->
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <!-- Main container for the content -->
+    <div class="container">
+        <h1>URL Shortner Free (v1.0)</h1> 
+        
+        <!-- Form for URL input and submission -->
+        <form id="urlForm" method="post" action="/">
+            <!-- Input field for the URL -->
+            <label for="url">Enter an https:// URL:</label>
+            <input 
+                type="url"
+                name="url"
+                id="url"
+                placeholder="https://www.example.com"
+                pattern="https://.*" 
+                size="50"
+                value="{{ old_url or '' }}"
+                required 
+            >
+            <!-- Ensure the input is a valid URL starting with https:// -->
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+            <br><br>
+            <!-- Display the generated shortened URL -->
+            <label>Generated URL: </label>
+            <input 
+                type="text" 
+                name="generated_url" 
+                value="{{ new_url or '' }}" 
+                size="50"
+                readonly
+            >
+            <!-- Read-only field to show the shortened URL -->
+        </form>
+    </div>
+    
+</body>
+</html>
