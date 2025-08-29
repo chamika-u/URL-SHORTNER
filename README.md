@@ -1,4 +1,4 @@
-# 🚀 KotaKaramu v1.0
+# 🚀 URL Shortner v1.0
 
 **KotaKaramu** – A simple web-based URL shortener built with **Flask** and **Python**.
 
