@@ -1,12 +1,12 @@
 # 🚀 URL Shortner v1.0
 
-**KotaKaramu** – A simple web-based URL shortener built with **Flask** and **Python**.
+**URL Shortner V1.0** – A simple web-based URL shortener built with **Flask** and **Python**.
 
 ---
 
 ## 📝 Project Overview
 
-KotaKaramu allows users to enter a long HTTPS URL and generate a shortened version.  
+  This app allows users to enter a long HTTPS URL and generate a shortened version.  
 
 This is version **v1.0**, which includes the **core functionality**:
 
