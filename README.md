@@ -6,8 +6,7 @@
 
 ## 📝 Project Overview
 
-  This app allows users to enter a long HTTPS URL and generate a shortened version.  
-
+This app allows users to enter a long HTTPS URL and generate a shortened version.  
 This is version v1.1, which improves upon v1.0 by adding:
 
 🖥 Input a URL through a web form
