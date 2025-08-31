@@ -8,13 +8,12 @@
 
   This app allows users to enter a long HTTPS URL and generate a shortened version.  
 
-This is version **v1.0**, which includes the **core functionality**:
+This is version v1.1, which improves upon v1.0 by adding:
 
-- 🖥 Input a URL through a web form
-- ✂️ Generate a shortened URL using Python/Flask
-- 📄 Display the shortened URL on the same page
-
-> ⚠️ Note: The JavaScript **copy button** and other enhancements will be added in later versions.
+🖥 Input a URL through a web form
+✂️ Generate a shortened URL using Python/Flask
+📄 Display the shortened URL on the same page
+📋 New! Copy button with JavaScript for quick copying
 
 ---
 
