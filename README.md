@@ -3,7 +3,7 @@
 **URL Shortner V1.0** – A simple web-based URL shortener built with **Flask** and **Python**.
 
 ---
-📝 Project Overview
+## 📝 Project Overview  
 
 This app allows users to enter a long HTTPS URL and generate a shortened version.  
 This is version v1.1, which improves upon v1.0 by adding:  
@@ -12,6 +12,7 @@ This is version v1.1, which improves upon v1.0 by adding:
 ✂️ Generate a shortened URL using Python/Flask  
 📄 Display the shortened URL on the same page  
 📋 New! Copy button with JavaScript for quick copying  
+
 ---
 
 
