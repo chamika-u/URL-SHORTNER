@@ -1,0 +1,89 @@
+/* Apply a smooth gradient background */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #e0f2fe, #f0fdfa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card-style container */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+}
+
+/* Heading */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+
+    /* Standard property */
+    background-clip: text;
+
+    /* Vendor prefix for WebKit browsers (Chrome, Safari, Edge) */
+    -webkit-background-clip: text;
+
+    /* Ensures the text itself becomes transparent so gradient shows */
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+/* Labels */
+label {
+    display: block;
+    font-weight: 600;
+    margin: 1rem 0 0.5rem;
+    color: #334155;
+}
+
+/* Input fields */
+input[type="url"],
+input[type="text"] {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border-radius: 12px;
+    border: 1px solid #cbd5e1;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: linear-gradient(145deg, #ffffff, #f8fafc);
+}
+
+input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 8px rgba(59, 130, 246, 0.4);
+    outline: none;
+}
+
+/* Button */
+button {
+    margin-top: 1rem;
+    background: linear-gradient(135deg, #3b82f6, #06b6d4);
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(59, 130, 246, 0.3);
+}
+
