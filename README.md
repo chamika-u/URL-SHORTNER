@@ -1,4 +1,4 @@
-# 🚀 URL Shortner v1.0
+# 🚀 URL Shortner v1.1
 
 **URL Shortner V1.0** – A simple web-based URL shortener built with **Flask** and **Python**.
 
