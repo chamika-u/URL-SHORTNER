@@ -27,13 +27,13 @@ This is version v1.1, which improves upon v1.0 by adding:
 
 ## 📂 Folder Structure
 
-v1.0/
+v1.1/
 ├── main.py
 ├── templates/
 │ └── index.html
 └── static/
-└── styles.css
-
+  └── styles.css
+  └── script.js
 
 ---
 
